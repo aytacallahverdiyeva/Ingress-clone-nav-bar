@@ -1,0 +1,95 @@
+/* all */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+header{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;;
+}
+/* container */
+.container{
+    max-width: 80%;
+    margin: 15px auto;
+    background-color: black;
+}
+
+/* header top */
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+    border-bottom: 1px solid #1A1A1A;
+}
+
+.header-top a{
+    color: white;
+}
+.header-bottom a {
+    color: white;
+}
+
+.header-top nav ul{
+    display: flex;
+}
+
+.header-top nav ul li{
+    margin-left: 18px;
+}
+
+/* login register */
+.header-top .login-register ul{
+    display: flex;
+}
+
+.login-register ul li{
+    margin-right: 18px;
+}
+
+#strelka{
+    color: #3F79FF;
+}
+
+/* bottom */
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+
+}
+
+.header-bottom ul {
+    display: flex;
+}
+
+.header-bottom ul li {
+    margin-right: 40px;
+    
+}
+
+/* hover header top */
+.fa-facebook:hover{
+    color: #3F79FF;
+}
+
+.fa-instagram:hover{
+    color: #3F79FF;
+}
+
+.fa-linkedin:hover{
+    color: #3F79FF;
+}
+
+.fa-youtube:hover{
+    color: #3F79FF;
+}
+
+/* hover header bottom */
+.hover-on:hover{
+    color: #3F79FF;
+}
